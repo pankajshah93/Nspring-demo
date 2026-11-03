@@ -23,7 +23,8 @@ app.get("/api/add", (req, res) => {
     }
 
     return res.json({
-        result: add(a, b)
+        result: add(a, b),
+        mesasage:"hello"
     });
 });
 
