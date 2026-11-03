@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" errors="0" time="1.12">
+  <testsuite name="Application API" errors="0" failures="0" skipped="0" timestamp="2026-11-03T08:57:14" time="0.514" tests="3">
+    <testcase classname="Application API health endpoint returns UP" name="Application API health endpoint returns UP" time="0.033">
+    </testcase>
+    <testcase classname="Application API add endpoint calculates correctly" name="Application API add endpoint calculates correctly" time="0.007">
+    </testcase>
+    <testcase classname="Application API add endpoint rejects invalid input" name="Application API add endpoint rejects invalid input" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Math utilities" errors="0" failures="0" skipped="0" timestamp="2026-11-03T08:57:14" time="0.094" tests="5">
+    <testcase classname="Math utilities adds two numbers" name="Math utilities adds two numbers" time="0.001">
+    </testcase>
+    <testcase classname="Math utilities subtracts two numbers" name="Math utilities subtracts two numbers" time="0.001">
+    </testcase>
+    <testcase classname="Math utilities multiplies two numbers" name="Math utilities multiplies two numbers" time="0.001">
+    </testcase>
+    <testcase classname="Math utilities calculates discount correctly" name="Math utilities calculates discount correctly" time="0.001">
+    </testcase>
+    <testcase classname="Math utilities rejects invalid discounts" name="Math utilities rejects invalid discounts" time="0.02">
+    </testcase>
+  </testsuite>
+</testsuites>
